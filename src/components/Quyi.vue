@@ -82,7 +82,7 @@ background: rgba(2, 14, 12, 0.01);
 backdrop-filter: blur(20px);
 border-radius: 0px 0px 0px 10px;
 margin-top:130px ;
-margin-bottom: 50px;
+
 }
 
 .logo {
