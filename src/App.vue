@@ -1,17 +1,24 @@
 <script>
 import Navbar from './components/navbar.vue'
-import Home  from "./components/Home.vue"
+import Uy  from "./components/Uy.vue"
+ import Quyi from './components/Quyi.vue'
+ import Urta from './components/Urta.vue'
 export default {
   components:{
     Navbar,
-    Home
-  }
+   Uy,
+   Urta,  
+    
+    Quyi
+  },  
 }
 </script>
 
 <template>
 
-  <Home />
+  <Uy/>
+ <Urta/> 
+   <Quyi/> 
 </template>
 
 <style scoped>

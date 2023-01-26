@@ -1,16 +1,18 @@
 <script>
 import Navbar from "./navbar.vue";
-
+import Button from "./Button.vue";
 export default {
   name: "app",
+
   data() {
     return {
       count: 0,
     };
+    
   },
 
   components: {
-    Navbar,
+    Navbar, Button
   },
 };
 </script>
@@ -41,10 +43,7 @@ export default {
       <div class="d-flex justify-content-between mt-5">
         <p class="p15">Скачать презентацию</p>
 
-        <button @click="count++" class="header-button">
-          count:{{ count }}
-          <p>Напишите нам</p>
-        </button>
+        <Button class="header-button" name="Напишите нам" />
       </div>
     </div>
   </div>
@@ -87,11 +86,11 @@ export default {
   background: #fff9ec;
   border-radius: 7px;
   border: none;
-}
-.header-button p {
   font-size: 15px;
   color: #be7e00;
   padding: 15px;
   margin-bottom: 0rem;
 }
+
+
 </style>
